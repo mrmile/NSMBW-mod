@@ -1,0 +1,1 @@
+for %%f in (*.arc *.bin *.kpbin) do ntcompress.exe -lh %%f

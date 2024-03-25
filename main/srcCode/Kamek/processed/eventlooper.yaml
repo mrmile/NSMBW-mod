@@ -1,0 +1,21 @@
+hooks:
+- name: eventlooper_Create
+  src_addr_jpn: 2158942860
+  src_addr_jpn2: 2158942892
+  src_addr_ntsc: 2158944684
+  src_addr_ntsc2: 2158944716
+  src_addr_pal: 2158944652
+  src_addr_pal2: 2158944684
+  target_func: EventLooper_Create(EventLooper*)
+  type: add_func_pointer
+- name: eventlooper_Execute
+  src_addr_jpn: 2158942884
+  src_addr_jpn2: 2158942916
+  src_addr_ntsc: 2158944708
+  src_addr_ntsc2: 2158944740
+  src_addr_pal: 2158944676
+  src_addr_pal2: 2158944708
+  target_func: EventLooper_Execute(EventLooper*)
+  type: add_func_pointer
+source_files:
+- ../src/eventlooper.cpp

@@ -1,0 +1,1 @@
+for %%f in (*.LH) do ntcompress.exe -x -o %%~nf %%f

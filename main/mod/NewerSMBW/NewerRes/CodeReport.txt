@@ -1,0 +1,277 @@
+Code:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File                                          blank        comment           code                author     notes
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+src/spritetex.S                                 423              0           1350                Tempus     Sprite Retextures
+src/koopatlas/pathmanager.cpp                   302            102           1264         Treeki/Tempus
+src/poweruphax.S                                309              0           1192                Treeki     Hammer Suit
+src/growup.s                                    343              0           1134                Tempus     Sprite Resize and Collision Fixes
+src/effects.cpp                                  13             10           1056                Tempus     Particle Effects
+src/shyguy.cpp                                  282            235           1017                Tempus
+src/bonusRoom.cpp                               270            113            915                Tempus     Music House Mini Game and Song Blocks
+src/koopatlas/core.cpp                          257            122            831                Treeki     World Map Core
+src/creditsMgr.cpp                              216             62            764                Treeki
+src/bossCaptainBowser.cpp                       223             81            722         Treeki/Tempus
+src/bossSamurshai.cpp                           196             94            702                Tempus
+src/codehandler.S                               183              6            689                Treeki
+src/replay.S                                    173              0            681                Treeki     Replay Recorder
+src/worldmap.cpp                                240            118            674                Treeki     unused: List based Worldmap
+src/codehandler.real.s                          181              0            640                Treeki
+src/randomcrap.S                                 50              0            547         Treeki/Tempus
+src/koopatlas/shop.cpp                          132             37            526                Tempus
+src/koopatlas/starcoin.cpp                      103             15            507                Tempus
+src/bossTopman.cpp                              165             75            503                Tempus
+src/bossBalboaWrench.cpp                        190             36            502                Tempus
+src/bossMegaGoomba.cpp                          129             53            499        megazig/Tempus     Giga Goomba, not a boss
+src/mrsun.cpp                                   190             22            494                Tempus     Angry Sun
+src/bossPodouble.cpp                            175             60            445                Tempus
+src/koopatlas/map.cpp                           148             34            442                Treeki
+src/shyguyGiants.cpp                            114             59            416                Tempus
+src/bossFuzzyBear.cpp                           212            116            414                Tempus
+src/thundercloud.cpp                            127             20            403                Tempus
+src/topman.cpp                                  122             55            387                Tempus
+src/makeYourOwnModelSprite.cpp                  202             32            385                Tempus     Custom Model Display Sprite
+src/koopatlas/hud.cpp                           121             19            363                Treeki
+src/bossThwompaDomp.cpp                          87             22            361                Tempus
+src/bossRamboo.cpp                              153             13            358                Tempus
+src/magicplatform.cpp                           103             25            349                Treeki
+src/fileselect.S                                 48              0            295                Treeki
+src/cutScene.cpp                                 65             21            286                Treeki     unused: layout based cutscenes
+src/penguin.cpp                                 100             42            279                Tempus     unused: upright walking penguin, defunct
+src/apDebug.cpp                                  65             22            256                Treeki     Active Physics Debug Boxes
+src/bossKoopaThrow.cpp                           97             24            255                Tempus     Captain Bowser's thrown items
+src/chestnut.cpp                                 98              6            252                Treeki
+src/endingMgr.cpp                                54             13            246                Treeki
+src/bossPlayerClown.cpp                          88             18            233                Tempus
+src/msgbox.cpp                                  102             20            232                Treeki
+src/bossWrenchThrow.cpp                          92              5            230                Tempus     Balboa Wrench's wrenches
+src/koopatlas/mapdata.h                          60             13            223                Treeki
+src/levelspecial.cpp                             73             11            220                Tempus     Special Level Events (low gravity, resizing, timer)
+src/classic_controller.S                         47              0            217  crediar/megazig/Temp
+src/anmconstruct.S                               39              0            214                Treeki
+src/koopatlas/mapdata.cpp                        81             20            209                Treeki
+src/summermodel.cpp                             104             24            203                Tempus     unused: Summer Sun models
+src/pumpkinGoomba.cpp                            52             20            182                Tempus     unused: two-hit pumpkin shelled goombas, glitchy
+src/koopatlas/camera.cpp                         76             24            182                Treeki     unused: cliff koopas, not working
+src/gakenoko.S                                   42              0            178                Treeki
+src/bossBombDrop.cpp                             76              7            174                Tempus
+src/tilegod.cpp                                  52              4            172                Treeki
+src/shyball.cpp                                  61             13            166                Tempus     unused: test for original shy guy
+src/asmlib.S                                     31              0            151                Treeki
+src/linegod.cpp                                  58              8            147                Treeki
+src/flipblock.cpp                                68              1            144                Treeki
+src/music.cpp                                    35             16            143                Treeki     Custom Music Hack
+src/randtiles.cpp                                45             13            139                Treeki     Randomize tileset tiles hack
+src/eventblock.cpp                               64              2            135                Treeki
+src/meteor.cpp                                   53             11            131                Tempus
+src/koopatlas/mapmusic.cpp                       44              7            129                Treeki
+src/soundPlayer.S                                39              0            129                Tempus
+src/fakeStarCoin.cpp                             47              2            129                Tempus
+src/heapbar.cpp                                  41              3            124                Treeki     Displays game heap onscreen
+src/layoutDebug.S                                26              0            122                Treeki
+src/heapbar.S                                    31              0            122                Treeki
+src/koopatlas/player.cpp                         45              8            121                Treeki
+src/poweruphax.cpp                               54              3            120                Tempus
+src/challengeStar.cpp                            45              0            119                Tempus
+src/switchblock.S                                12              0            118                Treeki
+src/koopatlas/core.h                             32              4            111                Treeki
+src/objkinoko.cpp                                43             19            110                Treeki
+src/layoutlib.h                                  29             14            106                Treeki
+src/scene.S                                      46              0            106                Treeki
+src/newer.cpp                                    24             39            104                Treeki
+src/texmapcolouriser.cpp                         28             11            103                Treeki
+src/layoutlib.S                                  29              0            102                Treeki
+src/boss.cpp                                     47             21            101                Tempus
+src/compression.S                                27              0            100                Treeki
+src/creditsMgr.S                                 14              0            100                Treeki
+src/koopatlas/pathmanager.h                      30              1             98                Treeki
+src/levelinfo.cpp                                30              5             94                Treeki
+src/pregame.cpp                                  26              7             88                Treeki
+src/firelaser.cpp                                47              1             86                Tempus
+src/koopatlas/shop.h                             29              0             86                Tempus
+src/electricLine.cpp                             32             24             85                Tempus
+src/effectvideo.cpp                              32              0             76                Tempus
+src/eventlooper.cpp                              27              7             74                Tempus
+src/corseClear.S                                 10              0             72                Treeki
+src/koopatlas/starcoin.h                         19              0             69                Tempus
+src/bonepiece.cpp                                31             10             67                Treeki
+src/bossBridgeBowser.cpp                         27              6             66                Tempus
+src/koopatlas/map.h                              22              1             64                Treeki
+src/spritespawner.cpp                            18              2             60                Tempus
+src/LineGodEmpty.cpp                             37              7             59                Treeki
+src/fileload.cpp                                 42             26             58                Treeki
+src/prolog.S                                     15              0             56                Treeki
+src/koopatlas/hud.h                              21              0             54                Treeki
+src/player.cpp                                   10              4             53                Tempus
+src/animtiles.cpp                                18              0             52                Treeki
+src/fileload.h                                   20              3             51                Treeki
+src/palaceDude.cpp                               13              5             51                Treeki     Handles special level exits for Switch Palace
+src/tilesetfixer.cpp                             26              5             51                Treeki
+src/bossFlameThrower.cpp                         20              0             49                Tempus
+src/tilegod.S                                    17              0             48                Treeki
+src/hardMode.s                                   23              0             48                Tempus
+src/levelnames.cpp                               15              9             45                Treeki
+src/linegod.S                                     9              0             44                Treeki
+src/levelinfo_old.h                              13              0             43                Treeki
+src/msgbox.h                                     12              0             43                Treeki
+src/levelinfo.h                                  14              0             42                Treeki
+src/cutScene.h                                   18              0             42                Treeki
+src/koopatlas/player.h                           16              0             42                Treeki
+src/worldmap.h                                   14             10             39                Treeki
+src/spriteswapper.cpp                            19              0             39                Tempus
+src/bossPlayerClown.S                            10              0             36                Tempus
+src/bowserKey.cpp                                 9              0             36                Tempus     unused, incomplete
+src/koopatlas/camera.h                           16              0             34                Treeki
+src/actorlog.S                                    8              0             33                Treeki
+src/boss.h                                       13              1             32                Tempus
+src/msgbox.S                                      7              0             31                Treeki
+src/crowdclapper.s                               10              0             29                Tempus
+src/fix38.S                                       8              0             26                Treeki
+src/bossThwompaDomp.S                            14              0             26                Tempus
+src/levelinfo_old.cpp                             8              2             26                Treeki
+src/sceneGlue.cpp                                 7             10             20                Treeki
+src/texmapcolouriser.h                            4              1             17                Treeki
+src/poweruphax.h                                  7              0             17                Treeki
+src/nullsub.S                                     4              0             12                Treeki
+src/koopatlas/mapmusic.h                          2              0             11                Treeki
+src/effects.h                                     5              6             10                Tempus
+src/destroy_tracker.cpp                           5              4             10                Treeki
+src/koopatlas/fixes.S                             1              0              9                Treeki
+src/pregame.S                                     2              0              8                Treeki
+src/player.h                                      4              0              8                Treeki
+src/layouthax.cpp                                 2              0              6                Treeki
+src/music.h                                       0              0              4                Treeki
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SUM:                                           9681           2282          32237
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File                                          blank        comment           code                author     notes
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+include/game.h                                  856            223           3072                Treeki     Core game includes via RE
+include/sfx.h                                     3              0           1985                Tempus     Mostly sfx listing
+include/rvl/GXEnum.h                            198             86           1016                Treeki
+include/rvl/GXFrameBuffer.h                     136            176            993                Treeki
+include/actors.h                                  6              1            806                Treeki
+include/g3dhax.h                                127             10            322                Treeki
+include/rvl/mtx.h                                81             84            276                Treeki
+include/dCourse.h                                41              2            225                Treeki
+include/playerAnim.h                              0              0            182                Treeki
+include/course.h                                 19              0            149                Treeki
+include/rvl/GXVert.h                             33             62            141                Treeki
+include/statelib.h                               47             23            137                Treeki
+include/common.h                                 42             18            109                Treeki
+include/rvl/GXTexture.h                          24              3            100                Treeki
+include/rvl/GXStruct.h                           27             18             87                Treeki
+include/stage.h                                  32             14             78                Tempus
+include/rvl/GXTev.h                              18              6             68                Treeki
+include/rvl/GXLighting.h                         20              6             68                Treeki
+include/rvl/GXGeometry.h                         13              2             67                Treeki
+include/rvl/arc.h                                30             19             66                Treeki
+include/commonX.h                                38             17             63                Treeki
+include/rvl/tpl.h                                28             20             59                Treeki
+include/daEnDosun_c.h                             8              7             57               megazig
+include/rvl/GXTransform.h                        13              3             55                Treeki
+include/rvl/vitypes.h                            23              3             53                Treeki
+include/rvl/GXBump.h                              7             13             35                Treeki
+include/rvl/GXPixel.h                            11              3             35                Treeki
+include/rvl/vifuncs.h                            14              2             32                Treeki
+include/rvl/OSCache.h                            12             20             29                Treeki
+include/bufferoption.h                            4              0             29                Treeki
+include/rvl/PPCWGPipe.h                           6              9             22                Treeki
+include/daEnemy_c.h                               7              5             21               megazig
+include/state.h                                   6              0             18                Treeki
+include/rvl/GXDispList.h                          4              2             12                Treeki
+include/rvl/GXCull.h                              4              2             12                Treeki
+include/event.h                                   5              1             10                Treeki
+include/newer.h                                   5              0              8                Treeki
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SUM:                                           1948            860          10497
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File                                          blank        comment           code                author     notes
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+poweruphax.yaml                                 198             57            775         Treeki/Tempus
+spritetex.yaml                                  193            190            509                Tempus
+bugfixes.yaml                                    52             54            262         Treeki/Tempus
+growup.yaml                                      90            132            156                Tempus
+summerhax.yaml                                   50             45            143         Treeki/Tempus
+fileselect.yaml                                  20             20            114                Treeki
+bossCaptainBowser.yaml                           41             35            109                Tempus
+koopatlas.yaml                                   18             16             86                Treeki
+NewerProjectKP.yaml                               0              6             66         Treeki/Tempus
+creditsMgr.yaml                                  14             14             62                Treeki
+NewerProject.yaml                                 0              9             53         Treeki/Tempus
+bossBridgeBowser.yaml                            23             22             51                Tempus
+switchblock.yaml                                  9              3             38                Treeki
+replay.yaml                                       0             12             32                Treeki
+singAlong.yaml                                   12             20             31                Tempus
+NewerCodehandler.yaml                             0              6             30                Treeki
+linegod.yaml                                      5              1             30                Treeki
+levelspecial.yaml                                 6              1             29                Tempus
+pregame.yaml                                      5              0             29                Treeki
+randtiles.yaml                                    5              0             26                Treeki
+classic_controller.yaml                           4              0             25        megazig/Tempus
+cutScene.yaml                                     5              0             25                Treeki
+worldmap.yaml                                     4              2             23                Treeki
+anotherhax.yaml                                   1              0             21                Treeki
+animtiles.yaml                                    3              5             20                Treeki
+compression.yaml                                  2              0             16                Treeki
+msgbox.yaml                                       2              0             16                Treeki
+blocksnake.yaml                                   5             12             16                Treeki
+bowserKey.yaml                                    3              0             16                Tempus
+shyguyGiants.yaml                                 3              3             15                Tempus
+pumpkinGoomba.yaml                                4              5             15                Tempus
+flipblock.yaml                                    0              3             15                Treeki
+shyguy.yaml                                       3              4             15                Tempus
+chestnut.yaml                                     1              0             15                Treeki
+thundercloud.yaml                                 3              5             15                Tempus
+meteor.yaml                                       3              5             15                Tempus
+bossSamurshai.yaml                                3              3             15                Tempus
+tilesetfixer.yaml                                 1              0             13                Treeki
+endingMgr.yaml                                    3              0             13                Treeki
+kamek_configs.yaml                                1              2             13                Treeki
+layoutDebug.yaml                                  1              0             13                Treeki
+tilegod.yaml                                      2              5             13                Treeki
+hardMode.yaml                                     6              9             13                Tempus
+magicplatform.yaml                                2              2             11                Treeki
+bonepiece.yaml                                    2              3             11                Treeki
+mrsun.yaml                                        2              2             11                Tempus
+objkinoko.yaml                                    3              0             11                Treeki
+makeYourOwn.yaml                                  2              4             11                Tempus
+challengeStar.yaml                                2              4             11                Tempus
+bossTopman.yaml                                   2              2             11                Tempus
+bossMegaGoomba.yaml                               3              2             11                Tempus
+eventlooper.yaml                                  3              1             11                Tempus
+topman.yaml                                       2              2             11                Tempus
+bossThwompaDomp.yaml                              3              4             11                Tempus
+gakenoko.yaml                                     0              0              9                Treeki
+levelnames.yaml                                   1              0              9                Treeki
+apDebug.yaml                                      1              0              8                Treeki
+layouthax.yaml                                    2              0              8                Treeki
+prolog.yaml                                       1              0              8                Treeki
+destroy_tracker.yaml                              1              0              8                Treeki
+heapbar.yaml                                      0              0              8                Treeki
+corseClear.yaml                                   0              0              8                Treeki
+actorlog.yaml                                     1              0              8                Treeki
+bossBalboaWrench.yaml                             2              1              7                Tempus
+pengi.yaml                                        2              1              7                Tempus
+bossRamboo.yaml                                   2              1              7                Tempus
+spriteswapper.yaml                                2              1              7                Tempus
+bossFuzzyBear.yaml                                2              1              7                Tempus
+eventblock.yaml                                   0              0              7                Treeki
+effectVideo.yaml                                  2              1              7                Tempus
+firelaser.yaml                                    2              1              7                Tempus
+spritespawner.yaml                                2              1              7                Tempus
+fakeStarCoin.yaml                                 2              1              7                Tempus
+bossWrenchThrow.yaml                              2              1              7                Tempus
+bossPodouble.yaml                                 2              1              7                Tempus
+electricLine.yaml                                 2              1              7                Tempus
+codehandler.yaml                                  1              0              7                Treeki
+SummerSun.yaml                                    0              0              6                Tempus
+AnotherProject.yaml                               0              1              5                Treeki
+soundPlayer.yaml                                  1              0              2                Tempus
+crowdclapper.yaml                                 0              9              0                Tempus
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SUM:                                            863            754           3313
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTALS:                                       12492           3896          46047
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
