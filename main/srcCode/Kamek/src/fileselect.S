@@ -327,7 +327,7 @@ WarpZoneName:
 
 .align 4
 DefaultSavefileInfoData:
-.string "...           " #15
+.string "-             " #15
 .byte 0,0,0,0,0,0,0,0,0,0,0 # 11
 .byte 0,0,0,0,0,0 # 6
 .long 0xFFFF99FF,0x1FB423FF

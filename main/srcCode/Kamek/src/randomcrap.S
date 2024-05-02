@@ -612,7 +612,7 @@ ReplaceExceptionOccurred:
 
 .data
 NewExceptionOccurred:
-.string "Whoops! Newer 1.0.2 has crashed.\nPlease take a screenshot of the info below\nand send it to newer@newerteam.com.\nYou can scroll through this report using the D-Pad.\n"
+.string "Whoops! Newer Evolution Mario Bros Wii has crashed.\nKeep in mind the mod compatibility with\nthe Wii was not checked neither suppoerted.\nConsider playing it on Dolphin Emulator instead where it has been extensively playtested.\n"
 UniLogStr: .string "[ULog] returning %8x to: %x > %x > %x > %x > %x > %x\n"
 #WillAlloc: .string "[AH] Will allocate %x bytes aligned by %x\n"
 #Alloced: .string "[AH] Allocated %p\n"
