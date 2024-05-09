@@ -2,11 +2,13 @@ hooks:
 - name: BalboaWrenchBuild
   src_addr_jpn: 2157342256
   src_addr_jpn2: 2157342272
-  src_addr_ntsc: &id001 2157344072
+  src_addr_kor: 2157364760
+  src_addr_ntsc: 2157344072
   src_addr_ntsc2: 2157344088
-  src_addr_pal: *id001
+  src_addr_pal: 2157344072
   src_addr_pal2: 2157344088
-  target_func: daBalboa_c::build()
+  src_addr_twn: 2157364616
+  target_func: daBalboa_c::build(void)
   type: add_func_pointer
 source_files:
 - ../src/bossBalboaWrench.cpp

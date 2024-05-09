@@ -2,18 +2,22 @@ hooks:
 - name: BuildMeteor
   src_addr_jpn: 2159059520
   src_addr_jpn2: 2159059552
+  src_addr_kor: 2159083280
   src_addr_ntsc: 2159061344
   src_addr_ntsc2: 2159061376
   src_addr_pal: 2159061312
   src_addr_pal2: 2159061344
-  target_func: dMeteor::build()
+  src_addr_twn: 2159083152
+  target_func: dMeteor::build(void)
   type: add_func_pointer
 - addr_jpn: 2150677240
   addr_jpn2: 2150677240
+  addr_kor: 2150728984
   addr_ntsc: 2150677720
   addr_ntsc2: 2150677720
-  addr_pal: &id001 2150678488
-  addr_pal2: *id001
+  addr_pal: 2150678488
+  addr_pal2: 2150678488
+  addr_twn: 2150721752
   data: 01FC 0000  00000008 00000000  00000008 00000000 00000200 00000200  0030 0030
     0000 0000  0008 0000
   name: UpdateMeteorSpriteInfo
@@ -21,10 +25,12 @@ hooks:
 - name: MeteorSpriteFileInfo
   src_addr_jpn: 2150738224
   src_addr_jpn2: 2150738224
+  src_addr_kor: 2150789968
   src_addr_ntsc: 2150738704
   src_addr_ntsc2: 2150738704
-  src_addr_pal: &id002 2150739496
-  src_addr_pal2: *id002
+  src_addr_pal: 2150739496
+  src_addr_pal2: 2150739496
+  src_addr_twn: 2150782736
   target_func: MEarcNameList
   type: add_func_pointer
 source_files:

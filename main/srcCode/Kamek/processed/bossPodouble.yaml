@@ -2,11 +2,13 @@ hooks:
 - name: PodoubleBuild
   src_addr_jpn: 2157423032
   src_addr_jpn2: 2157423048
-  src_addr_ntsc: &id001 2157424848
+  src_addr_kor: 2157445536
+  src_addr_ntsc: 2157424848
   src_addr_ntsc2: 2157424864
-  src_addr_pal: *id001
+  src_addr_pal: 2157424848
   src_addr_pal2: 2157424864
-  target_func: daPodouble::build()
+  src_addr_twn: 2157445392
+  target_func: daPodouble::build(void)
   type: add_func_pointer
 source_files:
 - ../src/bossPodouble.cpp

@@ -1,0 +1,15 @@
+hooks:
+- branch_type: b
+  name: ReplacePrintContext
+  src_addr_jpn: 2149796208
+  src_addr_jpn2: 2149796208
+  src_addr_kor: 2149798048
+  src_addr_ntsc: 2149796704
+  src_addr_ntsc2: 2149796704
+  src_addr_pal: 2149797024
+  src_addr_pal2: 2149797024
+  src_addr_twn: 2149798048
+  target_func: PrintContext(unsigned short, void *, unsigned int, unsigned int)
+  type: branch_insn
+source_files:
+- ../src/exceptionHandler.cpp

@@ -3,28 +3,34 @@ hooks:
   name: InitialiseEverything
   src_addr_jpn: 2148907376
   src_addr_jpn2: 2148907376
+  src_addr_kor: 2148909216
   src_addr_ntsc: 2148907872
   src_addr_ntsc2: 2148907872
-  src_addr_pal: &id001 2148908192
-  src_addr_pal2: *id001
+  src_addr_pal: 2148908192
+  src_addr_pal2: 2148908192
+  src_addr_twn: 2148909216
   target_func: InitCompression
   type: branch_insn
 - branch_type: b
   name: GetFileEntrynumNew
   src_addr_jpn: 2148973120
   src_addr_jpn2: 2148973120
+  src_addr_kor: 2148974960
   src_addr_ntsc: 2148973616
   src_addr_ntsc2: 2148973616
-  src_addr_pal: &id002 2148973936
-  src_addr_pal2: *id002
+  src_addr_pal: 2148973936
+  src_addr_pal2: 2148973936
+  src_addr_twn: 2148974960
   target_func: GetFileEntrynumNew
   type: branch_insn
 - area_jpn: 2149414228
   area_jpn2: 2149414228
+  area_kor: 2149416068
   area_ntsc: 2149414724
   area_ntsc2: 2149414724
-  area_pal: &id003 2149415044
-  area_pal2: *id003
+  area_pal: 2149415044
+  area_pal2: 2149415044
+  area_twn: 2149416068
   name: FixStreamingLHDecompression
   type: nop_insn
 source_files:

@@ -3,20 +3,24 @@ hooks:
   name: TileGodHack
   src_addr_jpn: 2155746144
   src_addr_jpn2: 2155746160
-  src_addr_ntsc: &id001 2155746768
+  src_addr_kor: 2155763360
+  src_addr_ntsc: 2155746768
   src_addr_ntsc2: 2155746784
-  src_addr_pal: *id001
+  src_addr_pal: 2155746768
   src_addr_pal2: 2155746784
+  src_addr_twn: 2155763280
   target_func: daChengeBlock_c::doStuff(daChengeBlock_c::Action, bool)
   type: branch_insn
 - branch_type: b
   name: GetTileFromTileTableHack
-  src_addr_jpn: &id002 2148021392
-  src_addr_jpn2: *id002
-  src_addr_ntsc: *id002
-  src_addr_ntsc2: *id002
-  src_addr_pal: *id002
-  src_addr_pal2: *id002
+  src_addr_jpn: 2148021392
+  src_addr_jpn2: 2148021392
+  src_addr_kor: 2148021712
+  src_addr_ntsc: 2148021392
+  src_addr_ntsc2: 2148021392
+  src_addr_pal: 2148021392
+  src_addr_pal2: 2148021392
+  src_addr_twn: 2148021712
   target_func: NEW_GetTileFromTileTable
   type: branch_insn
 source_files:

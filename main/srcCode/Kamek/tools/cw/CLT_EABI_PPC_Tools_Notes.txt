@@ -1,0 +1,107 @@
+===========================================================================
+Metrowerks Command-Line Tools Release Notes
+===========================================================================
+
+Date:    December 2, 1999
+Authors: Ed Swartz, Stephen Chong
+	
+===========================================================================
+Usage and Configuration
+===========================================================================
+
+(General usage notes are in "CLT_Usage_Notes.txt".)
+
+For Embedded PowerPC environment variables, OS is "EABI" and ARCH is 
+"PPC", so the target-specific names are "MWCEABIPPCIncludes" for the 
+compiler, and "MWEABIPPCLibraries" and "MWEABIPPCLibraryFiles" for the 
+linker.
+
+===========================================================================
+Changes in This Version
+===========================================================================
+
+1999/12/02:
+
+A warning is generated when "-use_lmw_stmw on" is used with little-endian
+targets, since it is ignored.  This option is now off by default and no 
+longer enabled by optimization options.
+
+1999/07/15:
+
+Removed the "-strip on|off" option in mwldeppc since it is misleading;
+deadstripping is always done for normal links.  The option was changed to
+"-strip_partial" which describes better what the option is intended to do,
+which is perform deadstripping on a partial link.  An error is generated
+if "-strip_partial" is used without specifying a partial link via
+"-opt_partial" or "-resolved_partial".
+
+1999/07/01:
+
+Changed default for "-bool" to be "on" to be more consistent with other
+MW tools; this only affects C++ code.
+
+===========================================================================
+New Features in This Version
+===========================================================================
+
+===========================================================================
+Bugs Fixed in This Version
+===========================================================================
+
+1999/12/02:
+
+Optimization options were a bit disheveled.  First, "-opt peephole" was 
+on by default, contrary to expectation, and not documented as such.  
+It is now off by default.  "-opt off|none" did not turn off peephole 
+optimizations or scheduling as it should have.  "-opt dump" did not report 
+the status of peephole optimization.  
+
+1999/05/20:
+
+Backend options were not visible in the linker, making it difficult to
+realize that they are used by both the compiler and linker.  These
+options should be passed to the linker if used by the compiler.
+
+===========================================================================
+Known Bugs / Problems in This Version
+===========================================================================
+
+1999/07/06:		-Cpp_exceptions option affects C program linkage
+
+### mwldeppc Linker Error:
+#   Static initializers must be called before 'main'.
+#   Please see '_ctors' in __ppc_eabi_init.cpp for example.
+
+If you see this linker error in an otherwise linkable C project and
+are linking with the ordinary runtime, MSL, math libraries, and
+__ppc_eabi_init.c, the culprit is sources being compiled with
+"-Cpp_exceptions on" (enable C++ exceptions).
+
+"-Cpp_exceptions" is "on" by default, reflecting the state of other MW
+tools.  In the EPPC compiler, this setting affects C code as well,
+allowing it to forward exceptions from whatever C++ code might be
+linked with it.  If you do not turn off the option manually
+("-Cpp_exceptions off") when building your sources, you will be
+required to link with the __ppc_eabi_init.cpp file instead of the
+__ppc_eabi_init.c file, so that static initialization of these
+exception-related structures can be performed at runtime.  Again, this
+applies even if all your sources are in C.
+
+===========================================================================
+Contacting Metrowerks
+===========================================================================
+
+Use the forms found in the Release Notes folder on the CD to submit:
+
+    Technical Support    cw_support@metrowerks.com
+    Report Bugs:         cw_bug@metrowerks.com
+    Suggestions:         cw_suggestion@metrowerks.com
+
+See the CodeWarrior_on_the_Nets document in the Release Notes folder for
+more contact information, including a list of Internet newsgroups,
+online services, and factory update sites.
+
+===========================================================================
+Ed Swartz, Stephen Chong
+Metrowerks Command-Line Tools Engineers
+Metrowerks Corporation
