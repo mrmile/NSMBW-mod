@@ -68,17 +68,31 @@ const char* SongNameList [] = {
 	"BONUS_AREA",
 	"CHALLENGE",
 	"BOWSER_CASTLE",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
 	"BOSS_CASTLE",
 	"BOSS_AIRSHIP",
+	"HAUNTED",
+	"CANYON",
+	"BEACH_EXRTA",
+	"ATHLETIC_EXTRA",
+	"SHYFTYBOO",
+	"BOWSY",
+	"FOREST_EXTRA",
+	"GROUND_TEMPLE",
+	"NINJA",
+	"BOO",
+	"FINAL_CASTLE",
+	"GHOST_TRAIN",
+	"LAVA_EXTRA",
+	"STORM_MOUNTAIN",
+	"UNDERGROUND_DISCO",
+	"FORTFIRE",
+	"WARIO_MINE",
+	"SNOW_EXTRA",
+	"CAVE_EXTRA",
+	"DESERT_EXTRA",
+	"CRYSTAL_MINE",
+	"",
+	"",
 	NULL	
 };
 
@@ -189,3 +203,5 @@ extern "C" u8 after_course_getMusicForZone(u8 realThemeID) {
 	bool usesDrums = (realThemeID >= 200);
 	return hijackMusicWithSongName(SongNameList[realThemeID-100], realThemeID, true, usesDrums?4:2, usesDrums?2:1, 0);
 }
+
+
