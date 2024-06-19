@@ -72,7 +72,7 @@ const char* SongNameList [] = {
 	"BOSS_AIRSHIP",
 	"HAUNTED",
 	"CANYON",
-	"BEACH_EXRTA",
+	"BEACH_EXTRA",
 	"ATHLETIC_EXTRA",
 	"SHYFTYBOO",
 	"BOWSY",
