@@ -23,7 +23,7 @@ asm_folder = Path(project_data['output_dir'])
 
 if sys.platform == 'win32':
     # Running on Windows
-    gccpath = Path('C:\\devkitPro\\devkitPPC\\bin\\')
+    gccpath = Path('tools/devkitPPC/bin/')
     kamekopts = ['--gcc-append-exe']
 
 else:
