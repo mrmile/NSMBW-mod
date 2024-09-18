@@ -329,9 +329,9 @@ WarpZoneName:
 .align 4
 DefaultSavefileInfoData:
 #ifdef FALLING_LEAF
-.string "-             " #15
+.string "Unknown Island" #15
 #else
-.string "-             " #15
+.string "Yoshi's Island" #15
 #endif
 .byte 0,0,0,0,0,0,0,0,0,0,0 # 11
 .byte 0,0,0,0,0,0 # 6

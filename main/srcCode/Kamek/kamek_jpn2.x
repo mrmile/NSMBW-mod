@@ -1837,6 +1837,40 @@ SECTIONS {
 
 	sException__Q24nw4r2dbFv = 2151523040;
 
+	DWORD_8093CDF0 = 2157169472;
+	DWORD_8093F520 = 2157179504;
+	WMPlayer_loadSubplayers = 2156931360;
+
+	returnFrom_WMPlayerUseSubplayerModel = 2156931280;
+	returnFrom_WMSubplayerFix01 = 2156931756;
+	returnFrom_WMSubplayerFix02 = 2156931776;
+	returnFrom_WMSubplayerFixFloat = 2156931944;
+	returnFrom_WMSubplayerFixStatusOnLoad = 2156958052;
+	returnFrom_FixWMSubplayerLoadModelArray1 = 2156836140;
+	returnFrom_FixWMSubplayerLoadModelArray2 = 2156836152;
+	returnFrom_PlayerDecideSound = 2155485800;
+	returnFrom_IncreaseCourseInVolumeSaveParam2 = 2149164936;
+	returnFrom_IncreaseCourseInVolume = 2149165152;
+	returnFrom_WMStarPowerupSound = 2155545884;
+	returnFrom_WMChangeP1Model_SaveReg = 2156932136;
+	returnFrom_DontSetP1PowerupToMario = 2156932464;
+	returnFrom_WMChangeP1Model = 2156932212;
+	returnFrom_ChangePSELBmgForPlayerCount = 2155482780;
+	returnFrom_CancelAddDropCheckPlayer1 = 2155481848;
+	returnFrom_CancelAddDropFix = 2155481876;
+	returnFrom_CancelAfterRegisteredFix = 2155481916;
+	returnFrom_PreventJumpOnWM = 2156682144;
+	returnFrom_CharacterChangeSelectBase_FixDefaultSelection = 2155282256;
+	returnFrom_CharacterChangeSelectBase_FixDefaultSelection2 = 2155282120;
+	returnFrom_CharacterChangeSelectBase_FixMarioVoice = 2155286976;
+	returnFrom_CharacterChangeSelectBase_FixMarioVoiceMini = 2155286952;
+	returnFrom_CharacterChangeSelectBase_FixInUseCheck = 2155281928;
+	returnFrom_CharacterChangeSelectBase_FixInUseCheck2 = 2155281944;
+	returnFrom_CharacterChangeSelectContents_GrabMarioIconPanes = 2155294496;
+	returnFrom_CharacterChangeSelectContents_MakeMarioIconPanesInvisible = 2155295768;
+	returnFrom_CharacterChangeSelectBase_FixIconUpdate = 2155296224;
+	returnFrom_CharacterChangeSelectBase_FixIconUpdate_2 = 2155296408;
+
 
 	.text : {
 		FILL (0)
