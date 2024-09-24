@@ -12,5 +12,5 @@ This part 1 release contains worlds 1 to 6 and secret worlds A to D. Be aware th
 Check out the trailer:
 https://youtu.be/GbG_tue4d5A
 
-Download the mod:
+Mod download:
 https://github.com/mrmile/NSMBW-mod/releases/tag/v1.0-Part_1v3
