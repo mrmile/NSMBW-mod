@@ -13,4 +13,4 @@ Check out the trailer:
 https://youtu.be/GbG_tue4d5A
 
 Mod Download:
-https://github.com/mrmile/NSMBW-mod/releases/tag/v1.0-Part_1v2
+https://github.com/mrmile/NSMBW-mod/releases/tag/v1.0-Part_1v3
