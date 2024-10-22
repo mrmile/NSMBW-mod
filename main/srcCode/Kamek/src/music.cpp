@@ -91,6 +91,8 @@ const char* SongNameList [] = {
 	"CAVE_EXTRA",
 	"DESERT_EXTRA",
 	"CRYSTAL_MINE",
+	"Irate_Eight_ Tension",
+	"WonderBowser",
 	"",
 	"",
 	NULL	
