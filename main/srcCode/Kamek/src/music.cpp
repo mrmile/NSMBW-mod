@@ -93,6 +93,8 @@ const char* SongNameList [] = {
 	"CRYSTAL_MINE",
 	"Irate_Eight_ Tension",
 	"WonderBowser",
+	"TropicalFreeze",
+	"DireDireDocks",
 	"",
 	"",
 	NULL	
